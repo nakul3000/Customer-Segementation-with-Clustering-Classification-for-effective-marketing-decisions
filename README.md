@@ -83,24 +83,20 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
+To help a supermarket (a mall here) boost their membership card sign-up rate, I'll delve into various clustering methods to conduct a customer segmentation analysis. Customer segmentation involves identifying similar customer groups based on shared traits such as shopping habits and buying patterns, enabling companies to tailor marketing efforts more efficiently to each group. This notebook will entail building several clustering models to gain insights into the store's customer demographics and to devise tactics aimed at boosting membership sign-ups. The methods explored will include K-Means Clustering, Hierarchical Clustering, and DBSCAN
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* <img src="https://github.com/nakul3000/Customer-Segementation-with-Clustering-Classification-for-effective-marketing-decisions/blob/main/120px-Scikit_learn_logo_small.svg.png" alt="Sklearn Logo" width="100" height="50">
+* <img src="https://github.com/nakul3000/Customer-Segementation-with-Clustering-Classification-for-effective-marketing-decisions/blob/main/plotly-logo-vector.png" alt="Plotly Logo" width="100" height="50">
+* <img src="https://github.com/nakul3000/Customer-Segementation-with-Clustering-Classification-for-effective-marketing-decisions/blob/main/numpy-logo.svg" alt="Numpy Logo" width="100">
+*  <img src="https://github.com/nakul3000/Customer-Segementation-with-Clustering-Classification-for-effective-marketing-decisions/blob/main/python-horizontal.svg" alt="TensorFlow Logo" width="100">  
+* <code><img width="50" src="https://user-images.githubusercontent.com/25181517/183914128-3fc88b4a-4ac1-40e6-9443-9a30182379b7.png" alt="Jupyter Notebook" title="Jupyter Notebook"/></code>
+* <img src="https://github.com/nakul3000/Customer-Segementation-with-Clustering-Classification-for-effective-marketing-decisions/blob/main/pandas-logo.svg" alt="Pandas Logo" width="100">
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,87 +105,79 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Here I have focused on making the Exploratory Data Analysis part with interactive charts and plots. Also the clusters which will be visualizaed are interactive and if you are coding in colab then the following dependancy should be set first.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+For having interactive charts using plotly in colab -
+* Colab
   ```sh
-  npm install npm@latest -g
+  import plotly.io as pio
+  pio.renderers.default = "colab"
   ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## DATA
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+* The data set is sourced from https://www.kaggle.com/datasets
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+* It consists of 200 instances of customers data from a Mall in Europe consisting of 4 features : `Customers' Age`, `Gender`, `Annual Income` and `Spending Score`
+
+<img src="https://github.com/nakul3000/Customer-Segementation-with-Clustering-Classification-for-effective-marketing-decisions/blob/main/customer_seg_data.png" alt="Dataset Summary" width="500">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
+
+## Business Problem
+* By segmenting customers into homogeneous groups, businesses aim to gain insights into their diverse needs, behaviors, and preferences, allowing for targeted marketing strategies, personalized product offerings, and improved customer satisfaction
+
+* In the context of the mall customers dataset, the business problem being tackled through customer segmentation is to better understand the diverse shopping behaviors and preferences exhibited by different customer segments
+
+1. **Targeted Marketing** <br> By understanding the unique needs and preferences of each customer segment, the mall can tailor its marketing strategies to effectively reach and engage with specific groups
+2. **Product Assortment Planning** <br> Segmenting customers based on their spending behaviors can provide valuable insights into the types of products and services that are most appealing to each group.
+3. **Customer Experience Enhancement** <br> By recognizing the distinct preferences of various customer segments, the mall can enhance the overall shopping experience by offering personalized services, targeted promotions, and loyalty programs that cater to the needs of each group
+4. **Operational Efficiency** <br> Understanding customer segments can also help optimize operational processes within the mall, such as staffing levels, store layouts, and inventory management, to better meet the needs of different customer groups and improve overall efficiency.
+
+
+## Machine Learning Solution
+
+We use powerful unsupervised machine learining techniques like `K-Means clustering`, `DBSCAN` and `Gaussian Mixture Models` to identify the customer segments in this dataset.
+
 <!-- ROADMAP -->
-## Roadmap
+### Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Perform Exploratory Data Analysis with interactive plots to understand the data better
+- [ ] Use methos like Intertia, Silhouette score and AIC, BIC curves to determine optimal number of clusters.
+- [ ] Visualize the clusters for K-means, DBSCAN and GMM - understand the best performance and validate the cluster accuracy.
+- [ ] Label the dataset with optimal number of clusters and develope a classification predictive model for future business strategies.
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+<div style="display: flex;">
+  <img src="https://github.com/nakul3000/Customer-Segementation-with-Clustering-Classification-for-effective-marketing-decisions/blob/main/newplot.png" alt="Dataset Summary" width="400">
+  <img src="https://github.com/nakul3000/Customer-Segementation-with-Clustering-Classification-for-effective-marketing-decisions/blob/main/silhouette.png" alt="Dataset Summary" width="500", height="400">
+  
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Conclusion & Findings
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+* Informative findings were made from the EDA process like 50 % of the customers lie between the age gorup of 28 to 51 for Men and 29 to 49 years for women.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+* With all the 3 methods of clustering i.e K-Means, DBSCAN & Gaussian Mixture Models - 2 clusters were identified.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+* So the customers could be segmented into 2 catagories and now we know how their age, gender look like for those catagories through which the Mall can deduce specific target campaigns.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+* Labelling of the unlabeled dataset was done, a logisctic regression model was fit with 100% accuracy. Hence the Mall can understand what cluster the customer belongs to when new unseen data comes in.
 
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+### 3D visulization with PCA and Plotly helps in demistifying clustering
+At first the clustered dataset and centroid do not make sense but reducing the dimensions and then visualizing keeping 90% of the data variance same is good for understanding what's happenig under the hood!
 
 
 <!-- CONTACT -->
@@ -206,9 +194,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [] Kaggle Community
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
