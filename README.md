@@ -10,45 +10,17 @@
 
 
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-<h3 align="center">project_title</h3>
+https://github.com/nakul3000/Customer-Segementation-with-Clustering-Classification-for-effective-marketing-decisions/assets/130779672/c05e5453-7b17-4007-a257-8c800a37a2db
 
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
-</div>
+
+
+<h1 align="center">Customer Segmentation for effective marketing decisions with K-Means, DBSCAN and Gaussian Mixture Models</h1>
+
 
 
 
@@ -66,13 +38,16 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#data">DATA</a></li>
+    <li><a href="#business-problem">Business Problem</a></li>
+    <li><a href="#machine-learning-solutions">Machine Learning Solutions</a>
+    <ul>
+        <li><a href="#roadmap">Roadmap</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion-&-findings">Conclusion & Findings</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -117,7 +92,7 @@ For having interactive charts using plotly in colab -
   ```
 
 
-<!-- USAGE EXAMPLES -->
+<!-- DATA -->
 ## DATA
 
 * The data set is sourced from https://www.kaggle.com/datasets
@@ -130,7 +105,7 @@ For having interactive charts using plotly in colab -
 
 
 
-
+<!-- BUSINESS PROBLEM -->
 ## Business Problem
 * By segmenting customers into homogeneous groups, businesses aim to gain insights into their diverse needs, behaviors, and preferences, allowing for targeted marketing strategies, personalized product offerings, and improved customer satisfaction
 
@@ -141,12 +116,11 @@ For having interactive charts using plotly in colab -
 3. **Customer Experience Enhancement** <br> By recognizing the distinct preferences of various customer segments, the mall can enhance the overall shopping experience by offering personalized services, targeted promotions, and loyalty programs that cater to the needs of each group
 4. **Operational Efficiency** <br> Understanding customer segments can also help optimize operational processes within the mall, such as staffing levels, store layouts, and inventory management, to better meet the needs of different customer groups and improve overall efficiency.
 
-
-## Machine Learning Solution
+<!-- MACHINE LEARNING SOLUTIONS -->
+## Machine Learning Solutions
 
 We use powerful unsupervised machine learining techniques like `K-Means clustering`, `DBSCAN` and `Gaussian Mixture Models` to identify the customer segments in this dataset.
 
-<!-- ROADMAP -->
 ### Roadmap
 
 - [ ] Perform Exploratory Data Analysis with interactive plots to understand the data better
@@ -164,7 +138,7 @@ We use powerful unsupervised machine learining techniques like `K-Means clusteri
 
 
 
-<!-- CONTRIBUTING -->
+<!-- CONCLUSION & FINDINGS -->
 ## Conclusion & Findings
 
 * Informative findings were made from the EDA process like 50 % of the customers lie between the age gorup of 28 to 51 for Men and 29 to 49 years for women.
@@ -179,13 +153,14 @@ We use powerful unsupervised machine learining techniques like `K-Means clusteri
 ### 3D visulization with PCA and Plotly helps in demistifying clustering
 At first the clustered dataset and centroid do not make sense but reducing the dimensions and then visualizing keeping 90% of the data variance same is good for understanding what's happenig under the hood!
 
+https://github.com/nakul3000/Customer-Segementation-with-Clustering-Classification-for-effective-marketing-decisions/assets/130779672/3ade244e-71bf-4e66-b0fc-11afccfb6b57
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Nakul Havaldar : nakul.havaldar@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: https://github.com/nakul3000/Customer-Segementation-with-Clustering-Classification-for-effective-marketing-decisions/tree/main
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,7 +169,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [] Kaggle Community
+* Kaggle Community
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
