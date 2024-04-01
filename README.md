@@ -129,7 +129,7 @@ We use powerful unsupervised machine learining techniques like `K-Means clusteri
 - [ ] Label the dataset with optimal number of clusters and develope a classification predictive model for future business strategies.
 
 <div style="display: flex;">
-  <img src="https://github.com/nakul3000/Customer-Segementation-with-Clustering-Classification-for-effective-marketing-decisions/blob/main/newplot.png" alt="Dataset Summary" width="400">
+  <img src="https://github.com/nakul3000/Customer-Segementation-with-Clustering-Classification-for-effective-marketing-decisions/blob/main/newplot.png" alt="Dataset Summary" width="300">
   <img src="https://github.com/nakul3000/Customer-Segementation-with-Clustering-Classification-for-effective-marketing-decisions/blob/main/silhouette.png" alt="Dataset Summary" width="500", height="400">
   
 </div>
